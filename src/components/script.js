@@ -9,7 +9,7 @@ export default {
 
     showLightBox: {
       type: Boolean,
-      default: true,
+      default: false,
     },
 
     startAt: {
@@ -19,7 +19,7 @@ export default {
 
     nThumbs: {
       type: Number,
-      default: 7,
+      default: 5,
     },
 
     showThumbs: {
