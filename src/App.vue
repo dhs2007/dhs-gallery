@@ -2,7 +2,11 @@
   <div id="app" style="background-color: dodgerblue">
     <div class="container">
       <h1>Danbury High School Class of 2007</h1>
+      <div class="text-center" style="margin: 25px 0">
+        <a href="https://goo.gl/photos/dnEnu4ZR95edHbAc8" target="_blank" class="btn btn-lg btn-danger">View Photographer Pictures</a>
+      </div>
       <div class="row">
+        <h3 style="color:white">Photobooth Pictures</h3>
         <ul>
           <li 
             v-for="(image, index) in images" 
@@ -20,6 +24,9 @@
           ref="lightbox"
           :show-caption="true"
         ></lightbox>
+      </div>
+      <div class="text-center" style="margin: 25px 0">
+        <a href="https://goo.gl/photos/dnEnu4ZR95edHbAc8" target="_blank" class="btn btn-lg btn-danger">View Photographer Photos</a>
       </div>
       <div class="container" style="background:#ffffff;margin-top:50px;margin-bottom:50px;">
         <div class="row">
