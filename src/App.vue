@@ -6,7 +6,7 @@
         <a href="https://goo.gl/photos/dnEnu4ZR95edHbAc8" target="_blank" class="btn btn-lg btn-danger">View Photographer Pictures</a>
       </div>
       <div class="row">
-        <h3 style="color:white">Photobooth Pictures</h3>
+        <h3 style="color:white;padding-left:5px;">Photobooth Pictures</h3>
         <ul>
           <li 
             v-for="(image, index) in images" 
